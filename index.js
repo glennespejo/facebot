@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 const request = require('request');
 const app = express();
 
-const token = 'EAATuSDbZCxEcBAJrh7ZCgnmitZAQLEZBhxEEIeFi9D1LGo325QETkgGlmkuJ0BTyNPFnZAth3bZBmSIHNk8jHv1iika1tDwZB1f76yY6mx7QalkcjaYG2Nbi48cJN7s3ZBsMp49EokyZCa88ZCSyib2mfDBZCvZBZAU2anKbIDFLFNAqUwAZDZD';
+const token = 'EAATKiHYPEmABAGkACLCyZCkdzW0qDoSndNCNnGDDEInkEcBhei81CzihJbYJgvzMd328HpBOqweGIAP1XmpfesBGuv87G6QDcugoctlK0c1wZBsRi9q9mzNZA1AAZCizsMGwOYZCUZCqq25LYgDn8KvhCTCk89oddono6FFHfKai3YrVjKtnZCT';
 
 app.set('port', (process.env.PORT || 5000));
 app.use(bodyParser.urlencoded({extended: false}));
