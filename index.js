@@ -54,7 +54,7 @@ app.post('/webhook/', function (req, res) {
                 hours = hours ? hours : 12; // the hour '0' should be '12'
                 minutes = minutes < 10 ? '0'+minutes : minutes;
                 var strTime = hours + ':' + minutes + ' ' + ampm;
-                sendTextMessage(sender, text);
+                sendTextMessage(sender, "The time now is " + strTime);
             } 
 			else if(text.indexOf('pogi') > -1) {
 				sendTextMessage(sender, "of course you!");
