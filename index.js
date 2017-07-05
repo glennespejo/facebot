@@ -51,9 +51,9 @@ app.post('/webhook/', function (req, res) {
 			else if(text.indexOf('pogi') > -1) {
 				sendTextMessage(sender, "of course you!");
 			}
-			else {
-                sendTextMessage(sender, "try asking about the weather or time.");
-            }
+			//else {
+                //sendTextMessage(sender, "try asking about the weather or time.");
+            //}
         }
     }
     res.sendStatus(200)
